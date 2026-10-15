@@ -78,7 +78,7 @@ xelatex thesis.tex
 
 ## Related repositories
 
-- [`bsc-thesis-scale-anomaly-archive`](https://github.com/alessiomartini/bsc-thesis-scale-anomaly-archive)
+- [`archive-bsc-thesis-scale-anomaly`](https://github.com/alessiomartini/archive-bsc-thesis-scale-anomaly)
   — the full working archive: defence slides, draft history, figure notebooks and
   university paperwork.
 - [`msc-thesis-non-invertible-symmetries`](https://github.com/alessiomartini/msc-thesis-non-invertible-symmetries)

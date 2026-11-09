@@ -6,31 +6,12 @@ LaTeX Bachelor's thesis on scale anomalies in quantum mechanics.
 
 ## Verification
 
-- Read `README.md` and the relevant `.tex`/`.bib` files before editing.
 - When a TeX source changes, compile with the repository's documented command
   (or `pdflatex`/`bibtex` in the existing sequence) and inspect the log for
   errors and unresolved references.
-- Keep generated auxiliary files out of git unless already tracked.
 
 ## Workflow
 
 - Preserve scientific notation, citations, and document structure.
 - Never fabricate results, references, or equations.
-- Review the diff and confirm the output PDF opens before committing.
-
-## Roadmap, idee e progressi
-
-`ROADMAP.md` nella root è l'**unico** file per todo, idee, decisioni e diario del progetto
-(niente `FUTURE-ARCHITECTURE.md`, `IDEE.md`, `TODO.md`). È letto da https://alessiomartini.github.io/projects-overview/.
-Sezioni: `## <fase>` (checkbox, contano nella percentuale), `## Idee` (checkbox, non contano),
-`## Decisioni e cose provate` (prosa: scartato/rimandato e perché, provato e annullato, limiti e bug noti), `## Log`.
-
-- Alla fine di ogni sessione di lavoro (prima del commit finale), aggiorna `ROADMAP.md`:
-  - spunta (`- [x]`) i punti completati in questa sessione;
-  - aggiungi come `- [ ]` i nuovi compiti nella fase giusta, e le idee non decise in `## Idee`;
-  - annota in `## Decisioni e cose provate` ciò che è stato scartato, rimandato o annullato, col perché;
-  - aggiungi in cima a `## Log` una riga `- AAAA-MM-GG: <cosa è stato fatto, in una frase>`
-    (se esiste già una riga con la data di oggi, estendila invece di crearne un'altra).
-- Non riscrivere né riordinare le voci esistenti senza motivo; non cancellare le voci completate.
-- Se `ROADMAP.md` non esiste, crealo da `templates/ROADMAP.md` di projects-overview.
-- Includi l'aggiornamento di `ROADMAP.md` nello stesso commit del lavoro.
+- Confirm the output PDF opens.
